@@ -53,15 +53,17 @@
   <p>Email: chrisholyspirit@gmail.com</p>
   <p>Phone: 09017452015 | 08102923395</p>
 
+  <!-- ✅ FIXED FORM -->
   <form id="contactForm">
-    <input type="text" placeholder="Your Name" required>
-    <input type="email" placeholder="Your Email" required>
-    <textarea placeholder="Your Message" required></textarea>
+    <input type="text" name="name" placeholder="Your Name" required>
+    <input type="email" name="email" placeholder="Your Email" required>
+    <input type="text" name="title" placeholder="Subject" required>
+    <textarea name="message" placeholder="Your Message" required></textarea>
     <button type="submit">Send Message</button>
   </form>
 </section>
 
-<!-- TALKING POPUP -->
+<!-- POPUP -->
 <div id="aiPopup">
   <img src="profile.jpeg" alt="Chrislord">
   <div class="speech">
@@ -72,6 +74,9 @@
 <footer>
   © 2026 Chrislord | AI Web Developer
 </footer>
+
+<!-- ✅ EMAILJS -->
+<script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
 
 <script src="script.js"></script>
 </body>
