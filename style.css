@@ -137,7 +137,7 @@ footer {
   transform: translateY(0);
 }
 
-/* TALKING POPUP */
+/* POPUP */
 #aiPopup {
   position: fixed;
   inset: 0;
